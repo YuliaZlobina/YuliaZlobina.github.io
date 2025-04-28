@@ -1,0 +1,11 @@
+/* Стили для секций */
+section {
+  padding: 40px;
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
