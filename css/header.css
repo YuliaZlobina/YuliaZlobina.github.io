@@ -8,7 +8,14 @@ header {
 }
 
 header h1 {
+  color: white;
+  margin-left: 15px;
   font-size: 2rem;
+}
+
+header p {
+  color: white;
+  margin-left: 15px;
 }
 
 header nav a {
