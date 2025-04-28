@@ -1,3 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header nav a {
+  color: white;
+  margin-left: 15px;
+}
+
+.teacher-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 /* Контейнер для хедера */
 .header-content {
   display: flex;
