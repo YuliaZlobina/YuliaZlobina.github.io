@@ -51,6 +51,9 @@ header nav a {
   object-fit: cover;
   border-radius: 50%;
   margin-left: 20px; /* Отступ между фото и текстом */
+  margin-right: 20px; /* Отступ справа */
+  margin-top: 20px; /* Отступ сверху */
+  margin-bottom: 20px; /* Отступ сверху */
 }
 
 /* Адаптивность, на маленьких экранах фото сверху  */
