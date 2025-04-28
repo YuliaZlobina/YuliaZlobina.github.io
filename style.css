@@ -18,6 +18,15 @@ header {
   text-align: center;
 }
 
+/* A class for the header photo */
+.teacher-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
 nav a {
   color: white;
   margin: 0 15px;
@@ -26,24 +35,17 @@ nav a {
   font-size: 18px;
 }
 
-/* Main */
-main {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-/* Sections (About, Services, Contact) */
-section {
+main, section {
   padding: 60px 20px;
   text-align: center;
 }
 
-section:nth-child(even) {
-  background-color: #e0f7fa; /* light background for even sections */
+.section-light {
+  background-color: #ffffff;
 }
 
-section:nth-child(odd) {
-  background-color: #ffffff; /* white background for odd sections */
+.section-dark {
+  background-color: #e0f7fa;
 }
 
 .button {
