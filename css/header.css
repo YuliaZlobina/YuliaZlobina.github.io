@@ -1,0 +1,36 @@
+/* Контейнер для хедера */
+.header-content {
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: space-between; /* Распределение на весь доступный горизонтальный space */
+  max-width: 1200px; /* Максимальная ширина */
+  margin: 0 auto; /* Центрируем блок */
+}
+
+/* Текстовая часть */
+.header-text {
+  text-align: left;
+}
+
+/* Фото преподавателя */
+.teacher-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 20px; /* Отступ между фото и текстом */
+}
+
+/* Адаптивность, на маленьких экранах фото сверху  */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column; /* Элементы идут вертикально */
+    text-align: center; /* Текст по центру */
+  }
+
+  .teacher-photo {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
