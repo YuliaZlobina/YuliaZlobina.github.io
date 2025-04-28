@@ -1,11 +1,24 @@
-/* Стили для секций */
-section {
-  padding: 40px;
-  margin: 20px 0;
-  background-color: #fff;
+main, section {
+  position: relative;
+  padding: 60px 20px;
+  text-align: center;
 }
 
-section h2 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
+section:after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: url('https://www.pngitem.com/pimgs/m/240-2401377_waves-png-transparent-background-waves-svg-png-icon.png') repeat-x;
+  background-size: cover;
+}
+
+.section-light {
+  background-color: #ffffff;
+}
+
+.section-dark {
+  background-color: #e0f7fa;
 }
